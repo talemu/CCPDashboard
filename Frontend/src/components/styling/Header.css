@@ -1,0 +1,36 @@
+.header {
+  background-color: white;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.header-title {
+  margin: 0;
+  color: black;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-icon {
+  height: 24px;
+  cursor: pointer;
+  color: grey;
+}

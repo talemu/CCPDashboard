@@ -1,0 +1,86 @@
+.agent-insights {
+  border: 2px solid #007bff; /* Updated border */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.agent-insights .agent-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 1em;
+  position: relative;
+}
+
+.agent-insights .agent-header span {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 0.9rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between text and icon */
+}
+
+.agent-insights .reload-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-size: 1rem;
+  padding: 0;
+}
+
+.agent-insights .reload-button:hover {
+  color: #007bff;
+}
+
+.agent-insights ul {
+  margin-bottom: 1em;
+  list-style: none;
+}
+
+.agent-insights ul li {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.agent-insights ul li button {
+  width: 100%;
+  border: black 1px solid;
+  text-align: left;
+  box-sizing: border-box;
+  border-radius: 0; /* Removed rounded edges */
+}
+
+.agent-insights button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.agent-insights button:hover {
+  background-color: #0056b3;
+}
+
+.agent-insights button:focus {
+  outline: none;
+  box-shadow: 0 0 4px #007bff;
+}
+
+.agent-insights .legend ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,44 @@
+.incident-list {
+  flex: 1;
+}
+
+.incident-list-container {
+  position: relative;
+  display: flex;
+}
+
+.incident-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.incident-list-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.incident-list-table {
+  width: 100%;
+}
+
+.incident-list-table thead {
+  background-color: #f0f0f0;
+}
+
+/* Clickable Incident ID */
+.incident-id-link {
+  color: #0078d4;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.incident-id-link:hover {
+  color: #106ebe;
+  text-decoration: none;
+}

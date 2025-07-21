@@ -1,0 +1,8 @@
+.progress-summary h3 {
+  margin-bottom: 0em;
+}
+
+.full-width {
+  width: calc(100% - 2em);
+  margin: 0 1em;
+}

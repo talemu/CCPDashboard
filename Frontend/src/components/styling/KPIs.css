@@ -1,0 +1,44 @@
+.kpis {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1em;
+  background-color: white;
+}
+
+.kpis ul {
+  display: flex; /* Flex items side by side */
+  gap: 1em; /* Optional: Add spacing between items */
+}
+
+.kpis ul li {
+  display: flex; /* Ensure items are flex containers */
+  flex-direction: column; /* Stack percentage above description */
+  align-items: center; /* Center align content */
+}
+
+.kpis ul li::before {
+  content: attr(
+    data-icon-text
+  ); /* Use the data-icon-text attribute for icon and text */
+  display: block; /* Ensure it behaves like a block element */
+  text-align: center; /* Center the text */
+  font-size: 0.9em;
+  color: #333; /* Ensure text is visible */
+  margin-bottom: 0.5em;
+}
+
+.kpis ul li.ticket-remediation {
+  padding-right: 1em;
+  border-right: 1px solid #ccc; /* Add border on the right side */
+}
+
+.full-width {
+  width: calc(100% - 2em);
+  margin: 0 1em;
+}
+
+.kpis .icon {
+  padding: 0.5em;
+  border-radius: 8px;
+  background-color: #fce5fc;
+}
