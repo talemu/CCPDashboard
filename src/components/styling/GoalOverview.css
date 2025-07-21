@@ -1,0 +1,8 @@
+.goal-overview p h4 {
+  color: gray;
+  margin-bottom: 0em;
+}
+
+.goal-overview .goal-summary p {
+  font-weight: bold;
+}

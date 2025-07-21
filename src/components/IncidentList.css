@@ -1,0 +1,26 @@
+.incident-list {
+  /* Add any widget-specific styles here */
+}
+
+.incident-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.incident-list-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.incident-list-table {
+  width: 100%;
+}
+
+.incident-list-table thead {
+  background-color: #f0f0f0;
+}

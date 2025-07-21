@@ -1,0 +1,30 @@
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+.sidebar-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category {
+  margin-bottom: 1em;
+}
+
+.category-title {
+  font-size: 16px;
+}
+
+.subitem-list {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.subitem-link {
+  text-decoration: none;
+  color: black;
+  border-left: 4px solid black;
+  padding-left: 8px;
+}
